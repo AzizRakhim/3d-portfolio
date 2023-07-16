@@ -26,10 +26,6 @@ const Contact = () => {
 
     setLoading(true);
 
-    // template_z4fxm39
-    // service_shal8ho
-    // frw9wN4zpY-axT1k2
-
     emailjs
       .send(
         "service_shal8ho",
@@ -123,7 +119,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] cursor-pointer"
       >
         <EarthCanvas />
       </motion.div>
